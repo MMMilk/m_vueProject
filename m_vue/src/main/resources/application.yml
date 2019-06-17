@@ -1,11 +1,11 @@
 server:
-  address: 8080
+  port: 8080
 
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/milk
-    data-username: root
-    data-password: root
+    username: root
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
   jooq:
     sql-dialect: mysql
